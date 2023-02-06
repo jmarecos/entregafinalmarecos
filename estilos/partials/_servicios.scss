@@ -1,0 +1,28 @@
+.accordion {
+    --bs-accordion-color: white;
+    --bts-accordion-btn-color: black;
+
+    .accordion-header{
+        background-color: white;
+       
+        
+    }
+    .accordion-item{
+        background: none;
+        background-color: $maincolor;
+    }    
+
+}
+.accordion-button{
+    display: flex;
+    text-align: center;
+    font-family: inconsolata;
+    border-radius: 2px;
+    background-color: #05141a;
+    color: white;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

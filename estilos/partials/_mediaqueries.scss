@@ -1,0 +1,133 @@
+@media screen and (max-width: 768px) {
+    .navbar a{
+        text-align: center;
+      
+    }
+    .navbar logo{
+      margin-top: 1rem;
+    }
+    .navbar > .container-fluid {
+      background: gold;
+      color: #05141a;
+    }
+    .navbar > .container-fluid .navbar-brand {
+      margin-left: 4rem;
+      margin-right: 0;
+    }
+    .navbar > .container-fluid .navbar-toggler {
+      margin-right: 4rem;
+      border: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      align-items: center;
+      color: #05141a;
+      font-weight: 400;
+      font-family: inconsolata;
+      font-size: 1.6rem;
+    }
+    .navbar > .container-fluid .navbar-toggler .navbar-toggler-icon {
+      margin-left: 1rem;
+    }
+    .hero{
+        background-image: url(../img/showroom.jpg);
+        background-position: center;
+        object-fit: cover;
+    }
+    .card-title{
+        background-color: gold;
+        text-align: center;
+        transform: matrix(2.1);
+    }
+    .pixa1:hover{
+        transform: scale(1.1);
+        max-width: 760px;
+        }
+    .pixa2:hover{
+        transform: scale(1.1)
+    }
+    .pixa3:hover{
+        transform: scale(1.1)
+    }
+    .pixa4:hover{
+        transform: scale(1.1)
+    }
+    .lorem2{
+        font-family: sans-serif;
+        text-align: center;
+        box-sizing: border-box;
+        border-radius: 2%;
+        background: #757F9A; 
+        background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  
+        background: linear-gradient(to right, #D7DDE8, #757F9A); 
+    
+    }
+    .video{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+        
+
+    .accordion-item{
+        background-color: gold;
+        color:  black;
+    }
+    .accordion-button{
+        text-align: center;
+        font-family: inconsolata;
+        border-radius: 2px;
+        background-color: #05141a;
+        color: white;
+    }
+
+}
+
+  
+  @media screen and (max-width: 480px) {
+    .navbar > .container-fluid .navbar-brand {
+      margin-left: 2rem;
+    }
+    .navbar > .container-fluid .navbar-toggler {
+      margin-right: 2rem;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .navbar > .container-fluid .navbar-brand {
+      margin-left: 2rem;
+    }
+    .navbar > .container-fluid .navbar-toggler {
+      margin-right: 2rem;
+    }
+    .card-title{
+        background-color: gold;
+        text-align: center;
+        transform: matrix(2.1);
+    }
+    .pixa1:hover{
+        transform: scale(1.1)
+        }
+    .pixa2:hover{
+        transform: scale(1.1)
+    }
+    .pixa3:hover{
+        transform: scale(1.1)
+    }
+    .pixa4:hover{
+        transform: scale(1.1)
+    }
+    .video{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .contenedor1{
+        grid-template-columns:repeat(6, 1fr) 1fr;
+        grid-template-rows:  1fr;
+        grid-template-areas: 
+          ".contenedor-imagen1"
+          ".contenedor-imagen2"
+          ".contenedor-imagen3";
+      }
+}

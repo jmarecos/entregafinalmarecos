@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inconsolata", monospace;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}
+
+.navbar .navbar-nav:nth-child(1) a {
+  color: black;
+}
+.navbar .navbar-nav:nth-child(1) a .navbar-nav a:hover {
+  transform: scale(1.2);
+}
+.navbar .navbar-nav:nth-child(1) a .logo {
+  width: 90px;
+}
+
+.hero {
+  background-image: url(../img/showroom2.jpg);
+  height: 90vh;
+}
+
+.container .card-img-top {
+  -webkit-margin-after: 5px 10px 5px 5px;
+          margin-block-end: 5px 10px 5px 5px;
+}
+.container .pixa1:hover {
+  transform: scale(1.1);
+}
+.container .pixa2:hover {
+  transform: scale(1.1);
+}
+.container .pixa3:hover {
+  transform: scale(1.1);
+}
+.container .pixa4:hover {
+  transform: scale(1.1);
+}
+.container .card-img-top {
+  -webkit-margin-after: 5px 10px 5px 5px;
+          margin-block-end: 5px 10px 5px 5px;
+}
+.container .card-title {
+  background-color: gold;
+  text-align: center;
+  transform: matrix(2.1);
+}
+
+.piedepagina {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.piedepagina .fa-brands {
+  text-decoration: none;
+  font-size: 28px;
+  padding: 5px;
+  width: 50px;
+  background-color: gold;
+  text-align: center;
+  color: grey;
+  line-height: 30px;
+  border-radius: 30%;
+}
+.piedepagina .boton1:hover {
+  transform: scale(1.1);
+}
+
+.lorem2 {
+  font-family: sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 2%;
+  background: #757F9A;
+  background: linear-gradient(to right, #D7DDE8, #757F9A);
+}
+
+.ubicacion {
+  margin-left: 25%;
+  display: flex;
+}
+
+.accordion {
+  --bs-accordion-color: white;
+  --bts-accordion-btn-color: black;
+}
+.accordion .accordion-header {
+  background-color: white;
+}
+.accordion .accordion-item {
+  background: none;
+  background-color: gold;
+}
+
+.accordion-button {
+  display: flex;
+  text-align: center;
+  font-family: inconsolata;
+  border-radius: 2px;
+  background-color: #05141a;
+  color: white;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.infoContacto {
+  background-color: black;
+  color: white;
+  padding: 9rem;
+  text-align: center;
+}
+.infoContacto i {
+  color: grey;
+  letter-spacing: 2px;
+  height: 3px;
+  padding: 10px;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar a {
+    text-align: center;
+  }
+  .navbar logo {
+    margin-top: 1rem;
+  }
+  .navbar > .container-fluid {
+    background: gold;
+    color: #05141a;
+  }
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: 4rem;
+    margin-right: 0;
+  }
+  .navbar > .container-fluid .navbar-toggler {
+    margin-right: 4rem;
+    border: 0;
+    display: flex;
+    align-items: center;
+    color: #05141a;
+    font-weight: 400;
+    font-family: inconsolata;
+    font-size: 1.6rem;
+  }
+  .navbar > .container-fluid .navbar-toggler .navbar-toggler-icon {
+    margin-left: 1rem;
+  }
+  .hero {
+    background-image: url(../img/showroom.jpg);
+    background-position: center;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .card-title {
+    background-color: gold;
+    text-align: center;
+    transform: matrix(2.1);
+  }
+  .pixa1:hover {
+    transform: scale(1.1);
+    max-width: 760px;
+  }
+  .pixa2:hover {
+    transform: scale(1.1);
+  }
+  .pixa3:hover {
+    transform: scale(1.1);
+  }
+  .pixa4:hover {
+    transform: scale(1.1);
+  }
+  .lorem2 {
+    font-family: sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 2%;
+    background: #757F9A;
+    background: linear-gradient(to right, #D7DDE8, #757F9A);
+  }
+  .video {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .accordion-item {
+    background-color: gold;
+    color: black;
+  }
+  .accordion-button {
+    text-align: center;
+    font-family: inconsolata;
+    border-radius: 2px;
+    background-color: #05141a;
+    color: white;
+  }
+}
+@media screen and (max-width: 480px) {
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: 2rem;
+  }
+  .navbar > .container-fluid .navbar-toggler {
+    margin-right: 2rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: 2rem;
+  }
+  .navbar > .container-fluid .navbar-toggler {
+    margin-right: 2rem;
+  }
+  .card-title {
+    background-color: gold;
+    text-align: center;
+    transform: matrix(2.1);
+  }
+  .pixa1:hover {
+    transform: scale(1.1);
+  }
+  .pixa2:hover {
+    transform: scale(1.1);
+  }
+  .pixa3:hover {
+    transform: scale(1.1);
+  }
+  .pixa4:hover {
+    transform: scale(1.1);
+  }
+  .video {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .contenedor1 {
+    grid-template-columns: repeat(6, 1fr) 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: ".contenedor-imagen1" ".contenedor-imagen2" ".contenedor-imagen3";
+  }
+}/*# sourceMappingURL=estilos.css.map */

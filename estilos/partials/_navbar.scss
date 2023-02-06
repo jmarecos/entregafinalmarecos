@@ -1,0 +1,12 @@
+.navbar{
+    .navbar-nav:nth-child(1) a{
+        color: black;
+        .navbar-nav a:hover{
+            transform: scale(1.2);
+        }
+           
+     .logo{
+            width: 90px;
+        }
+    }
+}

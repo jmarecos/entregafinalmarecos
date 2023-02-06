@@ -1,0 +1,22 @@
+.piedepagina{
+    text-align: center;
+    background-color: black;
+    color: white;
+    .fa-brands{
+        text-decoration: none;
+        font-size: 28px;
+        padding: 5px;
+        width: 50px;
+       
+        background-color: $maincolor;
+        text-align: center;
+        color: grey;
+        line-height: 30px;
+        border-radius: 30%;
+        
+    }
+    .boton1:hover{
+        transform: scale(1.1);
+    }
+
+}
